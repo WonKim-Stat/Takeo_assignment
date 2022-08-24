@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        margin: 0%;
+      }
+      .overall-grid {
+    
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+
+        row-gap: 10px;
+        column-gap: 10px;
+      }
+      .blue-grid {
+        display: grid;
+        grid-template-rows: 30px 120px;
+        border-color: #8ee1ec;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 10px;
+        overflow: hidden;
+        color: #2da0af;
+      }
+      .orange-grid {
+        display: grid;
+        grid-template-rows: 30px 120px;
+        border-color: #ffe082;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 10px;
+        overflow: hidden;
+        color: #ffa027;
+      }
+      .red-grid {
+        display: grid;
+        grid-template-rows: 30px 120px;
+        border-color: #ef9a9a;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 10px;
+        overflow: hidden;
+        color: #d23030;
+      }
+      .blue-title {
+        background-color: #e0f7fa;
+        border-color: #8ee1ec;
+        border-bottom: solid 3px #8ee1ec;
+
+        color: #2da0af;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .orange-title {
+        background-color: #fff8e1;
+        border-color: #ffa440;
+        border-bottom: solid 3px #ffe082;
+
+        color: #ffa440;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .red-title {
+        background-color: #ffebee;
+        border-color: #d23030;
+        border-bottom: solid 3px #ef9a9a;
+
+        color: d23030;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      p {
+        text-align: center;
+      }
+      img {
+        height: 60px;
+        text-align: center;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overall-grid">
+      <div class="blue-grid">
+        <div class="blue-title">7:25 AM</div>
+        <div class="content">
+          <div><img src="icon/flight1.png" /></div>
+          <div><p>Boston</p></div>
+        </div>
+      </div>
+      <div class="blue-grid">
+        <div class="blue-title">8:15 PM</div>
+        <div class="content">
+          <div><img src="icon/flight2.png" /></div>
+          <div><p>Madrid</p></div>
+        </div>
+      </div>
+      <div class="blue-grid">
+        <div class="blue-title">Translate</div>
+        <div class="content">
+          <div><img src="icon/language.png" /></div>
+          <div><p>Spanish</p></div>
+        </div>
+      </div>
+
+      <div class="orange-grid">
+        <div class="orange-title">Bike</div>
+        <div class="content">
+          <div><img src="icon/bike.png" /></div>
+          <div><p>13.1 miles</p></div>
+        </div>
+      </div>
+      <div class="orange-grid">
+        <div class="orange-title">Boat</div>
+        <div class="content">
+          <div><img src="icon/boat.png" /></div>
+          <div><p>90 Minutes</p></div>
+        </div>
+      </div>
+      <div class="orange-grid">
+        <div class="orange-title">Drive</div>
+        <div class="content">
+          <div><img src="icon/drive.png" /></div>
+          <div><p>48 Miles</p></div>
+        </div>
+      </div>
+
+      <div class="red-grid">
+        <div class="red-title">Morning</div>
+        <div class="content">
+          <div><img src="icon/morning.png" /></div>
+          <div><p>Coffee</p></div>
+        </div>
+      </div>
+      <div class="red-grid">
+        <div class="red-title">Afternoon</div>
+        <div class="content">
+          <div><img src="icon/gym.png" /></div>
+          <div><p>Gym</p></div>
+        </div>
+      </div>
+      <div class="red-grid">
+        <div class="red-title">Night</div>
+        <div class="content">
+          <div><img src="icon/night.png" /></div>
+          <div><p>Hot Tub</p></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
